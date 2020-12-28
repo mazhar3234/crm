@@ -1,0 +1,334 @@
+/* header css */
+body {
+    letter-spacing: 0.4px;
+}
+.custom-navbar-top {
+    border-bottom: none;
+    background: #ffffffb3;
+}
+.custom-navbar-top .fa-phone {
+	transform: rotate(100deg);
+}
+.custom-navbar-top i {
+	color: #F49122;
+}
+.custom-navbar-top .custom-dropdown {
+	margin-right: 12px;
+}
+.custom-navbar {
+	background: #1C2B39;
+}
+.custom-navbar .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.custom-navbar .navbar-nav .nav-link {
+    color: #cdd3d8;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover, 
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-top a:hover,.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #F49122;
+}
+.dropdown-menu.language {
+    padding: 10px 0px;
+    min-width: 100px;
+    width: 110px;
+}
+.dropdown-menu.currency {
+    padding: 10px 0px;
+    min-width: 60px;
+    width: 60px;
+}
+.custom-dropdown .dropdown-item {
+    padding: 5px 15px;
+}
+.dropdown-divider {
+    margin: 2px 0px;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #101010 !important;
+    text-decoration: none;
+    background-color: #ececec;
+    box-shadow: 0px 0px 1px #151414;
+}
+.btn.custom-btn {
+    background: #F49122;
+    border-color: #F49122;
+}
+.btn.focus, .btn:focus, .form-control:focus {
+    box-shadow: none;
+}
+.tab_container [id^="tab"]:checked + label {
+    box-shadow: inset 0 3px #F49122;
+}
+.tab-content .form-group span {
+    color: #F49122;
+}
+p.subtitle {
+    color: #F49122 !important;
+    letter-spacing: 0px;
+
+}
+.listing-rating.card-popup-rainingvis {
+    padding: 5px 10px;
+}
+.custom-section p.section-subtitle {
+    letter-spacing: 0.2px;
+}
+.car-item .score {
+    text-align: right;
+    margin-top: 10px;
+    display: flex;
+    padding: 0px 10px;
+}
+.car-item .score .info {
+    padding: 0px 0px 0px 10px;
+}
+.TravelGo-category-img img, .gallery-item img {
+    height: 200px;
+    object-fit: cover;
+}
+.TravelGo-category-opt {
+    padding: 10px 15px;
+}
+.TravelGo-category-img {
+    max-height: 200px;
+    height: 200px;
+}
+.TravelGo-category-content-title {
+    padding-bottom: 10px;
+}
+.TravelGo-category-location a {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.map-item i {
+    color: #F49122;
+    font-size: 14px;
+}
+.TravelGo-category-content-title span {
+    color: #F49122;
+}
+.facilities-list .custom-btn {
+    padding: 12px 10px;
+    line-height: 10px;
+    float: right;
+    font-size: 12px;
+}
+.facilities-list {
+    margin: 0px;
+    margin-top: 5px;
+    margin-right: 5px;
+    list-style: none;
+}
+.facilities-list li span {
+    top: -30px;
+    background: #F0A233;
+}
+.btn.custom-btn:hover, .btn.custom-btn:focus {
+    background: #F0A233;
+    color: #fff;
+    border-color: #F0A233;
+}
+.TravelGo-category-opt .rate-class-name span {
+    background: none;
+    box-shadow: none;
+    padding: 0px;
+}
+.rate-class-name img.driver {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.TravelGo-category-opt .rate-class-name {
+    top: 0px;
+}
+.TravelGo-category-opt .listing-rating {
+    float: left;
+    position: absolute;
+    bottom: 20px;
+    top: inherit;
+}
+.TravelGo-category-opt .rate-class-name .score strong {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.custom-section.cars .TravelGo-category-listing:hover {
+    box-shadow: 0px 0px 80px rgba(83, 88, 93, 0.2);
+}
+.facilities-list li {
+    margin-top: 10px;
+}
+
+.text-grad {
+    background: linear-gradient(150deg, #f59f25 0%, #bb802b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.custom-section.footer .widget.address .more,a:hover,.NeedhelpSection ul li i,.footer-dark .widget a:hover {
+    color: #F0A233;
+}
+.TravelGo-opt-list a:hover, .TravelGo-opt-tooltip {
+    background: #F0A233;
+}
+h6.subtitle {
+    text-transform: inherit;
+    letter-spacing: 0.4px;
+}
+.custom-section.tours .TravelGo-category-opt .rate-class-name span {
+    background: #ffcd22;
+    padding: 12px;
+    box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.2);
+}
+header.navbar-sticky-on {
+    z-index: 999;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-group label {
+    margin-bottom: .5rem;
+}
+.custom-select-field option {
+    font-weight: 600;
+}
+button.btn.btn-light {
+    background: linear-gradient(45deg, #fff, #fff);
+    font-weight: 600;
+    border: 1px solid #b3b3b3;
+    color: #555 !important;
+}
+button.btn.btn-light:hover {
+    box-shadow: 1px 2px 3px #d8d8d8;
+}
+.booking-search .form-control, .booking-search input[type=text], .booking-search input[type=email], .booking-search input[type=password], .booking-search input[type=number], 
+.booking-search input[type=search], .booking-search textarea {
+    border: 1px solid #b3b3b3;
+    font-weight: 600;
+}
+.form-control,input[type=text], input[type=email], input[type=password], input[type=number], input[type=search], textarea {
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+}
+.form-control:focus, button, input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, 
+input[type=number]:focus, input[type=search]:focus, input[type=checkbox]:focus, textarea:focus {
+    border: 1px solid #F49122;
+}
+.form-group.sort_by_div {
+    display: flex;
+    justify-content: flex-end;
+}
+input#tc {
+    height: 18px;
+    width: 18px;
+}
+label#terms_condition {
+    margin-top: -2px;
+    position: absolute;
+    margin-left: 5px;
+}
+label#terms_condition a, .terms-body a {
+    color: #F0A233;
+}
+.btn-primary.custom-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    padding: 0 20px;
+}
+.terms-body {
+    padding: 20px 25px 30px;
+    text-align: justify;
+}
+.TravelGo-category-content-title span {
+    color: #ca7900;
+    font-size: 17px;
+    margin: -4px 0 0 0;
+}
+.TravelGo-category-content-title span strong {
+    font-size: 20px;
+}
+.innerpage-banner.py-7 {
+    padding: 6rem !important;
+}
+.tours .TravelGo-category-img {
+    max-height: 310px;
+}
+.tours .TravelGo-category-content p {
+    text-align: justify;
+    font-size: 13.5px;
+    color: #353535;
+}
+.tours .TravelGo-category-content {
+    max-height: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+}
+.TravelGo-category-listing .place-title {
+    position: absolute;
+    z-index: 9;
+    background: #fff;
+    padding: 5px 10px 5px 14px;
+    border-radius: 0px 5px 5px 0px;
+    top: 63%;
+    left: -1%;
+    font-size: 13px;
+    font-weight: 600;
+}
+.TravelGo-category-opt .score i.fa.fa-star {
+    color: #FFCD22;
+}
+.tours .TravelGo-category-listing:hover {
+    box-shadow: 0px 0px 80px rgba(83, 88, 93, 0.38); 
+}
+.modal-dialog {
+    max-width: 530px;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+.select2-container .select2-selection--single {
+    height: 40px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 40px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px !important;
+    right: 2px !important;
+}
+div#mainDiv, div.duplicate {
+    margin-bottom: 1rem;
+}
+button.rem {
+    font-size: 13px;
+}
+
+.bg-light.bg-transparent {
+    background-color: #f7f8f905 !important;
+}
+
+.booking-search.custom-margin {
+    margin-top: -353px !important;
+}
+
+section.mt-custom {
+    margin-top: 100px;
+}
+section.car-custom {
+    margin-bottom: -100px;
+}
+.from-control.location {
+    width: 100%;
+    border-radius: 3px !important;
+}
